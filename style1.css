@@ -1,0 +1,115 @@
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex; */
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+   
+}
+
+h2 {
+text-align: center;
+font-size: 3em;
+margin-top: 0; 
+margin-bottom: 0;
+}
+
+p {
+text-align: center;
+margin:auto;
+
+}
+
+.containerRed {
+background-color: #F44336;
+color: aliceblue;
+width: 310px;
+height: 400px;
+box-shadow: 9px 9px 18px 0px rgba(0,0,0,0.57);
+margin: 30px;
+padding: 40px 40px;
+border-radius: 5px;
+
+}
+
+
+.logo {
+
+display: block;
+width: 30px;
+margin: auto;
+padding: 5px;
+}
+
+.Red-group {
+width: 300px;
+padding: 10px;
+box-sizing: border-box;
+text-align: left;
+background-color: #c31c10;
+color: white;
+margin: 5px;
+
+
+}
+
+.Red-group input {
+width: 250px;
+padding: 0px;
+border: #c31c10;
+text-align: left;
+box-sizing: border-box;
+background-color: #c31c10;
+color: white;
+}
+
+.Red-group input::placeholder {
+color: white;
+}
+
+.Red-group  select {
+width: 250px;
+padding: px;
+text-align: left;
+background-color: #c31c10;
+color: white;
+border: none;
+
+}
+
+.Red-group textarea {
+width: 250px;
+height: 50px;
+background-color: #c31c10;
+border: none;
+
+}
+.Red-group textarea::placeholder {
+    color: white;
+   
+}
+
+.Red-group-submit {
+width: 250px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+text-align: center;
+background-color: white;
+cursor: pointer;
+box-shadow: 7px 9px 18px 0px rgba(0,0,0,0.57);
+margin: auto;
+
+}
+
+.Red-group-submit input {
+background-color:white;
+border: none;
+color: brown;
+
+
+
+
+}
